@@ -4,19 +4,15 @@ public class FindMaxNum {
 
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
-        System.err.print("Enter your first A number: ");
+        System.out.print("Enter your first number: ");
         int a = sc.nextInt();
-        System.err.print("Enter your second B number: ");
+        System.out.print("Enter your second number: ");
         int b = sc.nextInt();
-        System.err.print("Enter your Third C number: ");
+        System.out.print("Enter your Third number: ");
         int c = sc.nextInt();
 
         if (a > b) {
-            if (a > c) {
-                System.err.println("It is greater than all value - " + a);
-            } else {
-                System.out.println("It is greater than all value - " + c);
-            }
+            System.out.println("It is greater than all value - " + a);
         } else if (b > c) {
             System.out.println("It is greater than all value - " + b);
         } else {
@@ -25,4 +21,4 @@ public class FindMaxNum {
     }
 }
 
-// Find maximum 3 number 
+// Find maximum 3 number
