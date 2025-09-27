@@ -27,16 +27,16 @@ public class FunctionRevision {
     public static int binoCofficient(int n, int r) {
         int nFact = factorial(n);
         int rFact = factorial(r);
-        int n_r_fact = factorial(n - r);
+        int n_r_fact = factorial(n-r);
 
-        int res = nFact / rFact * n_r_fact;
+        int res = nFact / (rFact * n_r_fact);
         System.out.println(res);
         return res;
     }
 
     public static void main(String[] args) {
-        // swap(5, 7);
-        binoCofficient(10, 5);
+        // swap(5, 7);s
+        binoCofficient(3, 2);
 
     }
 }
