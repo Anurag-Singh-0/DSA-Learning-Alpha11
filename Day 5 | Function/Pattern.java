@@ -5,7 +5,7 @@ public class Pattern {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter any number to print star pattern : ");
+        System.out.print("Enter any number to print character pyramid pattern : ");
         int n = sc.nextInt();
         char ch = 'A';
 
