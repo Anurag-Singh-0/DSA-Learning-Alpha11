@@ -53,16 +53,27 @@ public class FunctionRevision {
         return num;
     }
 
+    public static void printPrime(int n) {
+        for (int i = 2; i <= n; i++) {
+            if (isPrime(i)) {
+                System.out.print(i + " ");
+            }
+        }
+        System.out.println();
+    }
+
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a number to check it's Prime number or Not : ");
-        int num = sc.nextInt();
+        // Scanner sc = new Scanner(System.in);
+        // System.out.print("Enter a number to check it's Prime number or Not : ");
+        // int num = sc.nextInt();
 
-        if (isPrime(num)) {
-            System.out.println(num + " is a prime number");
-        } else {
-            System.out.println(num + " is not a prime number");
-        }
+        // if (isPrime(num)) {
+        // System.out.println(num + " is a prime number");
+        // } else {
+        // System.out.println(num + " is not a prime number");
+        // }
+
+        printPrime(20);
     }
 }
