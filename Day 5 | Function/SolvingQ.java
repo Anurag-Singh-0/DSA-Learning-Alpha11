@@ -25,7 +25,7 @@ public class SolvingQ {
     //     }
     // }
     public static int sumDigit(int num) {
-        int sum = 1;
+        int sum = 2;
 
         while (num != 0) {
             int lastD = num % 10;
