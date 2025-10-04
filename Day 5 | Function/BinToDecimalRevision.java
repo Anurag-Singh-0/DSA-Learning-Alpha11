@@ -17,6 +17,6 @@ public class BinToDecimalRevision {
     }
 
     public static void main(String[] args) {
-        binaryToDecimal(10001);
+        binaryToDecimal(111);
     }
 }
